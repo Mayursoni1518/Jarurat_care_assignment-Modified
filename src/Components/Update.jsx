@@ -19,7 +19,7 @@ const Update = () => {
         setValues(res.data);
       })
       .catch(err => console.log(err));
-    }, [])
+    }, [id])
 
 
     const navigate = useNavigate(); 
